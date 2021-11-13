@@ -6,7 +6,7 @@
 
 Format of score file: XML format, in ".score" extension
 
-Format of music: Piano
+Format of music: Piano, 242 notes
 
 Score file see file directories.
 
