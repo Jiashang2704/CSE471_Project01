@@ -1,6 +1,6 @@
 # CSE471_Project01
 
-#Title selected: Demon slayer
+#Title selected: Demon slayer Opening "Gurenge"
 
 #Group members: Jiashang Cao, Xiangyi Liu
 
