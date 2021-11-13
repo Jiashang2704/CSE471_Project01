@@ -1,6 +1,34 @@
 Component: Piano Component
 Owner: Jiashang Cao
-Element:
+
+Example of score file note:
+<note measure="1" beat="1" duration="2" speed="0.5" note="C2" pedal="0"/>
+
+Elements:
+1,Polyphony:
+Piano notes can be played in the sametime if they have the same "measure" and "beat" variables in note object. 
+Note variable can be set as formats like "A4" or "F4#", the # sign is going after the numbers.
+
+2,Envelopes:
+The piano note will have a long dampening period when key is released. The duration variable determines the length of time from pressing key to release.
+
+3,Pedals:
+Pedal variable can be set to "0", "1", "2", "3". When pedal was set to "1", "2", and "3", it was pressing the pedal:
+"0": No pedal in use.
+"1": Stepping down to pedal. creating pedal down sound.
+"2": Pedal is in used and pressing, no sound will be produced.
+"3": Pedal is releasing, creating pedal up sound.
+
+4,Dynamics (basic):
+The speed variable can determine the volumn/loudness of a piano note sound, range 0 to 1, from zero amplitude to the amplitude of the loud version of the piano note
+
+5,Pedal Noise:
+See 3 in detail, pedal noise can be make when setting to "1" or "3" for press and release. The two sounds are implemented and loaded in class CPianoInstrument.
+
+6,Dynamics (advanced):
+There are sources of sound in class CPianoInstrument. There are loud version and soft version of the piano sounds. They are interpolated each other.
+When speed variable is set to 1, it will be pure loud sound and when it is near to 0, it will be very close to the soft sound.
+When speed variable is set to 0.5, it will be a half-half mixture of soft and loud sound.
 
 
 
@@ -10,6 +38,8 @@ Component: Effect Component
 Owner: Xiangyi Liu
 Element:
 It was serevely bugged so we removed the most part but the .cpp/.h file along
+
+
 
 
 
