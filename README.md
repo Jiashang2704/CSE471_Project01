@@ -6,6 +6,8 @@
 
 Format of score file: XML format, in ".score" extension
 
+Format of music: Piano
+
 Score file see file directories.
 
 Functionality see functionalities.txt
