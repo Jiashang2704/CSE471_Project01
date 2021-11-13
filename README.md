@@ -8,3 +8,4 @@ Format of score file: XML format, in ".score" extension
 
 Score file see file directories.
 
+Functionality see functionalities.txt
