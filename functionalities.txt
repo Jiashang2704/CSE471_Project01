@@ -1,0 +1,19 @@
+Component: Piano Component
+Owner: Jiashang Cao
+Element:
+
+
+
+
+
+Component: Effect Component
+Owner: Xiangyi Liu
+Element:
+It was serevely bugged so we removed the most part but the .cpp/.h file along
+
+
+
+Component: Music score file and music making
+Owner: Jiashang Cao, Xiangyi Liu
+Element: 
+Score file and wav music file of the anime opening from "Demon Slayer"
